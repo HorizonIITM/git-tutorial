@@ -15,10 +15,11 @@ current memory details
 ```
 5. Some of the commands that you may use to achieve this include `whoami`, `date`, `free`, `grep`, `cat`.
 6. Add this new file to the your local repository, commit it (short commit message will suffice), 
-   and push the changes to GitHub.
+   and push the changes to GitHub (pushing will throw error: follow the instruction in the error to push).
 8. Open Pull Request in the original repository with the newly added file as instructed above. The title
    of the pull request should be in the format `rollnumber_name` (in lowercase). In the description briefly write
-   what you learnt in the Linux module, and what more would you have liked to learn.
+   what you learnt in the Linux module, and what more would you have liked to learn. Check the **Pull-Request**
+   section for how to make PRs.
 8. Complete the circulated Google Form by uploading a text file containing all the commands that you used
    to create the file in **step 4**.
 9. Now wait!
@@ -37,3 +38,19 @@ current memory details
    or any column headers. Consult the example file [`ph19b003`](./submissions/ph19b003) to get an idea.
 5. Make sure the file you upload to Google Forms is a plain text file (you can confirm using the `file` command,
    and all of the commands used in creating the file in **step 4** are provided.
+   
+# Pull-Request
+1. After pushing your changes in the newly created branch to your forked repository, open the
+   forked GitHub repository in your browser.
+2. If you have successfully completed until step 6, you will see a notification with a button `Compare and pull request`.
+   Choose that.
+3. You will have some dialogs with options. Make sure the following are correct:
+   1. `base-repository` should be the original Horizon's **git-tutorial** repository.
+   2. `base branch` should be **main**.
+   3. `head-repository` should be your forked repository.
+   4. `head-branch` should be the branch named your roll-number, which you created and pushed.
+4. If all steps are done correctly, it should show **Able to merge**.
+5. For the pull request title enter `rollnumber_name`, where `rollnumber` is your rollnumber and `name` is your name.
+   All characters should be lowercase, replace spaces in your name with `-` (hyphen).
+6. Write a small description about what you learnt in Module 1.1 and what you expected, but didn't learn.
+7. Click `Create pull request`.
