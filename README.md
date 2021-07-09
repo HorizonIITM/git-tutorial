@@ -37,7 +37,10 @@ current memory details
 4. The memory details in fourth line of the file should not contain any information about Swap memory,
    or any column headers. Consult the example file [`ph19b003`](./submissions/ph19b003) to get an idea.
 5. Make sure the file you upload to Google Forms is a plain text file (you can confirm using the `file` command,
-   and all of the commands used in creating the file in **step 4** are provided.
+   and all of the commands used in creating the file in **step 4** are provided. Commands in this case are not
+   the same as "tools". Say you type `command1 | command2` and hit enter, then `command1 | command2` should
+   be considered a "command" and have its own line in the file that you upload. If you type `command argument` and
+   hit enter, then that should occupy another line by its own.
    
 # Pull-Request
 1. After pushing your changes in the newly created branch to your forked repository, open the
